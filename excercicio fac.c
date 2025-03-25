@@ -3,14 +3,14 @@
 
 int main()
 
-{
+{ //declaraçao das variaveis usadads
     char figura;
     double area, raio, base, altura;
 
     printf("escolha a figura desejada; (C)irculo, (R)etangulo, (Q)uadrado ou (T)riangulo: ");
     scanf("%c", &figura);
 
-    if ((figura == 'c'))
+    if ((figura == 'c')) //comparativo da resposta inserida e os poligonos
     {
 
         printf("Qual o raio do circulo? ");
